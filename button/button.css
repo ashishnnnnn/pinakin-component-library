@@ -1,0 +1,57 @@
+.btn {
+  font-size: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  outline: none;
+  color: #444444;
+}
+
+.btn-primary {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+.btn.info {
+  background-color: rgb(124, 152, 212);
+  color: rgb(11, 47, 124);
+}
+
+.btn.success {
+  background-color: rgb(90, 224, 168);
+  color: rgb(18, 92, 66);
+}
+
+.btn.warning {
+  background-color: rgb(235, 200, 130);
+  color: rgb(255, 123, 0);
+}
+
+.btn.danger {
+  background-color: rgb(206, 98, 98);
+  color: rgb(119, 25, 25);
+}
+
+.btn-link {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn-icon i {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.btn-floating-icon {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #bb4430;
+}

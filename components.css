@@ -177,3 +177,9 @@
     content: "\f00d";
   }
 }
+
+@media only screen and (max-width: 450px) {
+  iframe {
+    height: auto !important;
+  }
+}
