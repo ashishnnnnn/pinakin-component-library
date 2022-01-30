@@ -1,0 +1,31 @@
+.alert {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  gap: 1rem;
+  background-color: rgb(234, 234, 236);
+  color: rgb(85, 85, 85);
+}
+
+.alert-success {
+  background-color: rgb(90, 214, 168);
+  color: rgb(18, 92, 66);
+}
+
+.alert-info {
+  background-color: rgb(124, 152, 212);
+  color: rgb(11, 47, 124);
+}
+
+.alert-warn {
+  background-color: rgb(235, 200, 151);
+  color: rgb(255, 123, 0);
+}
+
+.alert-dang {
+  background-color: rgb(206, 98, 98);
+  color: rgb(119, 25, 25);
+}
