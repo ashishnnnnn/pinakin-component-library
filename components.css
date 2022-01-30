@@ -1,0 +1,179 @@
+/* ########################################## Nav-Bar ############################################# */
+
+.nav-bar {
+  height: 12.5vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px #aaa;
+}
+
+.right-nav-list .hamburger {
+  display: none;
+}
+
+.right-nav-list .menu-btn:hover {
+  cursor: pointer;
+}
+
+.right-nav-list {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+}
+
+.side-hidden-bar {
+  text-align: center;
+  overflow: scroll;
+}
+
+.side-hidden-bar .hidden-icon i {
+  color: var(--theme-color);
+}
+
+.side-hidden-bar .list-of-components button {
+  background-color: white;
+}
+
+.side-hidden-bar .list-of-components .side-bar-btn-active {
+  background-color: var(--theme-color);
+  color: white;
+}
+
+.margin-req {
+  height: 13.5vh;
+}
+
+/*  ########################################## Main-Body ###################################### */
+
+.main-body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  color: var(--text-color);
+}
+
+/* ############################################## Side-Bar   #####################################*/
+
+.side-bar {
+  height: calc(100vh - 13.5vh);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+.side-bar .list-of-components {
+  color: var(--text-color);
+}
+
+.side-bar .list-of-components div a {
+  width: 240px;
+  color: var(--text-color);
+  border-radius: 5px;
+  background-color: var(--light-dark-color);
+  transition: 0.4s;
+}
+
+.side-bar .list-of-components a:hover {
+  background-color: var(--dark-dark-color);
+}
+
+.side-bar .list-of-components .side-bar-btn-active a {
+  color: var(--theme-color);
+  background-color: var(--light-theme-color);
+  transition: 0.4s;
+}
+
+.side-bar .list-of-components .side-bar-btn-active a:hover {
+  background-color: var(--medium-theme-color);
+}
+
+.side-bar .list-of-components .side-bar-btn-active a {
+  color: var(--theme-color);
+}
+
+/* ############################## Main - bar ################################ */
+
+.main-content {
+  height: calc(100vh - 13.5vh);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* ###################################### Main-content ############################## */
+
+.main-content .normal-text {
+  color: var(--text-color);
+}
+
+/* ################################## Footer ################################## */
+
+.social_links {
+  background-color: var(--theme-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_links button {
+  background-color: var(--theme-color);
+}
+
+.social_links a {
+  color: white;
+}
+
+.social_links a:hover {
+  color: var(--dark-secondary-color);
+}
+
+@media only screen and (max-width: 950px) {
+  .right-nav-list .hamburger {
+    display: block;
+  }
+
+  .right-nav-list .menu-btn:hover {
+    cursor: pointer;
+  }
+
+  .right-nav-list .github,
+  .right-nav-list .home {
+    display: none;
+  }
+
+  .nav-bar .side-hidden-bar {
+    position: fixed;
+    top: 12.5vh;
+    left: -100%;
+    background-color: rgba(17, 17, 17, 0.99);
+    height: 100vh;
+    width: 90%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 10rem;
+    gap: 3rem;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main-body .side-bar {
+    display: none;
+  }
+
+  /* ################################################# To Flick the hambergor ##################### */
+
+  #click:checked ~ .side-hidden-bar {
+    left: 0%;
+  }
+
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+}
