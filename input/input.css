@@ -1,0 +1,29 @@
+.text-area {
+  width: 100%;
+  max-width: 25rem;
+  height: 10rem;
+  outline: 1px solid #bb4430;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.input-area {
+  width: 100%;
+  max-width: 15rem;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.valid-input {
+  outline: 3px solid rgb(10, 70, 10);
+  background-color: rgba(9, 117, 9, 0.171);
+}
+
+.error-input {
+  outline: 3px solid red;
+  background-color: rgba(255, 0, 0, 0.185);
+}

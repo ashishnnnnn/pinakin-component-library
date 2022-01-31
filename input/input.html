@@ -10,7 +10,7 @@
     ></script>
     <link rel="stylesheet" href="../base.css" />
     <link rel="stylesheet" href="../components.css" />
-    <link rel="stylesheet" href="badge.css" />
+    <link rel="stylesheet" href="input.css" />
     <title>Avatar</title>
   </head>
   <body>
@@ -52,14 +52,14 @@
                 <button class="pad-1-2">
                   <a class="s-h" href="../button/button.html">Button</a>
                 </button>
-                <button class="pad-1-2 side-bar-btn-active">
-                  <a class="s-h" href="#">Badge</a>
+                <button class="pad-1-2">
+                  <a class="s-h" href="../badge/badge.html">Badge</a>
                 </button>
                 <button class="pad-1-2">
                   <a class="s-h" href="../card/card.html">Card</a>
                 </button>
-                <button class="pad-1-2">
-                  <a class="s-h" href="../input/input.html">Input</a>
+                <button class="pad-1-2 side-bar-btn-active">
+                  <a class="s-h" href="#">Input</a>
                 </button>
                 <button class="pad-1-2">
                   <a class="s-h" href="../image/image.html">Image</a>
@@ -112,8 +112,11 @@
               <p>Button</p>
             </a>
           </div>
-          <div id="badge" class="side-bar-btn-active">
-            <a class="fnt-1-2 pad-1-0 gap-1 flex-center-column" href="#">
+          <div id="badge" class="">
+            <a
+              class="fnt-1-2 pad-1-0 gap-1 flex-center-column"
+              href="../badge/badge.html#badge"
+            >
               <i class="fas fa-certificate"></i>
               <p>Badge</p>
             </a>
@@ -127,11 +130,8 @@
               <p>Card</p>
             </a>
           </div>
-          <div id="input" class="#">
-            <a
-              class="fnt-1-2 pad-1-0 gap-1 flex-center-column"
-              href="../input/input.html"
-            >
+          <div id="input" class="side-bar-btn-active">
+            <a class="fnt-1-2 pad-1-0 gap-1 flex-center-column" href="#">
               <i class="fas fa-keyboard"></i>
               <p>Input</p>
             </a>
@@ -155,10 +155,7 @@
             </a>
           </div>
           <div id="nav-bar" class="">
-            <a
-              class="fnt-1-2 pad-1-0 gap-1 flex-center-column"
-              href="../navbar/navbar.html#nav-bar"
-            >
+            <a class="fnt-1-2 pad-1-0 gap-1 flex-center-column" href="#">
               <i class="fas fa-ellipsis-h"></i>
               <p>NavBar</p>
             </a>
@@ -175,46 +172,30 @@
         </div>
       </div>
       <div class="main-content pad-1-5">
-        <div class="f-h">Badge</div>
+        <div class="f-h">Input</div>
         <p class="normal-text">
-          <span class="theme-color fnt-w-600">Badge</span> is kind of a
-          notification counter.We generally see it with some icons(eg. Add to
-          Cart ,Wishlist).<br />
-          It also used with avatar, to show count of notification recieved by
-          user.
+          <span class="theme-color fnt-w-600">Inputs</span> are mainly used to
+          take the data from the user.
+          <br />
+          It is a way by which user interact with website
         </p>
-        <div class="s-h mar-t-1">(1). Badge With Icon</div>
+        <div class="s-h mar-t-1">(1). Text-Box</div>
         <div
-          class="flex-center-column gap-5 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
         >
-          <div class="badge badge-icon">
-            <i class="fas fa-cart-plus"></i>
-            <p>2</p>
-          </div>
-          <div class="badge badge-icon">
-            <i class="fas fa-envelope"></i>
-            <p>9</p>
-          </div>
-          <div class="badge badge-icon">
-            <i class="fas fa-heart"></i>
-            <p>5</p>
-          </div>
-          <div class="badge badge-icon">
-            <i class="fas fa-bell"></i>
-            <p>7</p>
-          </div>
+          <textarea class="text-area" placeholder="start here ..."></textarea>
         </div>
-        <div class="s-h mar-t-1">Code</div>
+        <div class="f-h mar-t-1">Code</div>
         <p class="normal-text">
-          Copy this line of code and style your
-          <span class="theme-color fnt-w-600">Badge Icon</span>
+          Copy this line of code and add
+          <span class="theme-color fnt-w-600">TextBox</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253E2%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253E9%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253E7%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Ctextarea%2520class%253D%2522text-area%2522%253E%253C%252Ftextarea%253E%2509%2509%250A%250A"
             style="
               width: 100%;
-              height: 484px;
+              height: 227px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -223,43 +204,44 @@
           >
           </iframe>
         </div>
-        <div class="s-h">(2). Badge With Avatar</div>
+        <div class="s-h mar-t-1">(2). Valid Input</div>
         <div
-          class="flex-center-column gap-5 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
         >
-          <div class="badge badge-avatar">
-            <img src="../data/avatar/profile_img_1.jpg" alt="" />
-            <p>9</p>
-          </div>
-          <div class="badge badge-avatar">
-            <img src="../data/avatar/profile_img_3.jpg" alt="" />
-            <p>5</p>
-          </div>
-          <div class="badge badge-avatar">
-            <img src="../data/avatar/profile_img_2.jpg" alt="" />
-            <p>2</p>
-          </div>
+          <input class="input-area valid-input" placeholder="email"></input>
         </div>
-        <div class="s-h mar-t-1">Code</div>
+        <div class="f-h mar-t-1">Code</div>
         <p class="normal-text">
-          Copy this line of code and style your
-          <span class="theme-color fnt-w-600">Badge Avatar</span>
+          Copy this line of code and add
+          <span class="theme-color fnt-w-600">Valid Input-Box</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fdata%252Favatar%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520profile_img_1.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%253E9%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fdata%252Favatar%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520profile_img_3.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%253E5%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fdata%252Favatar%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520profile_img_2.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%253E2%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 562px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
+              src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-area%2520valid-input%2522%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522email%2522%253E%2509%250A"
+              style="width: 100%; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <div class="s-h mar-t-1">(3). Error Input</div>
+        <div
+          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+        >
+          <input class="input-area error-input" placeholder="email"></input>
+        </div>
+        <div class="f-h mar-t-1">Code</div>
+        <p class="normal-text">
+          Copy this line of code and add
+          <span class="theme-color fnt-w-600">Error Input-Box</span>
+        </p>
+        <div class="code-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-area%2520error-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522email%2522%253E%2509%2509%2509%2509"
+            style="width: 100%; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
           </iframe>
         </div>
       </div>
     </div>
   </body>
 </html>
+
