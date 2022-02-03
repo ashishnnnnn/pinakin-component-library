@@ -10,7 +10,7 @@
     ></script>
     <link rel="stylesheet" href="../base.css" />
     <link rel="stylesheet" href="../components.css" />
-    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="text-utility.css" />
     <title>Avatar</title>
   </head>
   <body>
@@ -44,42 +44,34 @@
               <div class="f-h">Components</div>
               <div class="flex-center-row list-of-components mar-t-1 gap-1">
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../avatar/avatar.html"
-                    >Avatar</a
-                  >
+                  <a class="s-h" href="../avatar/avatar.html">Avatar</a>
                 </button>
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../alert/alert.html">Alert</a>
-                </button>
-                <button class="pad-1-2 side-bar-btn-active">
-                  <a class="second-heading" href="#">Button</a>
+                  <a class="s-h" href="../alert/alert.html">Alert</a>
                 </button>
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../badge/badge.html">Badge</a>
+                  <a class="s-h" href="../button/button.css">Button</a>
                 </button>
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../card/card.html">Card</a>
+                  <a class="s-h" href="../badge/badge.html">Badge</a>
+                </button>
+                <button class="pad-1-2">
+                  <a class="s-h" href="../card/card.html">Card</a>
                 </button>
                 <button class="pad-1-2">
                   <a class="s-h" href="../input/input.html">Input</a>
                 </button>
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../image/image.html">Image</a>
+                  <a class="s-h" href="../image/image.html">Image</a>
+                </button>
+                <button class="pad-1-2 side-bar-btn-active">
+                  <a class="s-h" href="#">Text-Utility</a>
                 </button>
                 <button class="pad-1-2">
-                  <a
-                    class="second-heading"
-                    href="../text-utility/text-utility.html"
-                    >Text-Utility</a
-                  >
+                  <a class="s-h" href="../navbar/navbar.html">Navbar</a>
                 </button>
                 <button class="pad-1-2">
-                  <a class="second-heading" href="../navbar/navbar.html"
-                    >Navbar</a
-                  >
-                </button>
-                <button class="pad-1-2">
-                  <a class="second-heading" href="../list/list.html">List</a>
+                  <a class="s-h" href="../list/list.html">List</a>
                 </button>
                 <button class="pad-1-2">
                   <a class="s-h" href="../modal/modal.html">Modal</a>
@@ -123,8 +115,11 @@
               <p>Alert</p>
             </a>
           </div>
-          <div id="button" class="side-bar-btn-active">
-            <a class="fnt-1-2 pad-1-0 gap-1 flex-center-column" href="#">
+          <div id="button" class="">
+            <a
+              class="fnt-1-2 pad-1-0 gap-1 flex-center-column"
+              href="../button/button.html#button"
+            >
               <i class="fas fa-smile-beam"></i>
               <p>Button</p>
             </a>
@@ -165,11 +160,8 @@
               <p>Image</p>
             </a>
           </div>
-          <div id="text-utility" class="">
-            <a
-              class="fnt-1-2 pad-1-0 gap-1 flex-center-column"
-              href="../text-utility/text-utility.html#text-utility"
-            >
+          <div id="text-utility" class="side-bar-btn-active">
+            <a class="fnt-1-2 pad-1-0 gap-1 flex-center-column" href="#">
               <i class="fas fa-heading"></i>
               <p>Text-Utility</p>
             </a>
@@ -231,29 +223,30 @@
         </div>
       </div>
       <div class="main-content pad-1-5">
-        <div class="f-h">Button</div>
+        <div class="f-h">Text-Utility</div>
         <p class="normal-text">
-          <span class="theme-color fnt-w-600">Button</span> is used to perform
-          some action , to interact with the website.
+          <span class="theme-color fnt-w-600">Text-Utility </span> is mainly
+          used to style heading, paragraph of the web-page , by giving them
+          different font-size and weight.<br />
         </p>
-        <div class="s-h mar-t-1">(1). Primary-Buttons</div>
+        <div class="s-h mar-t-1">(1). Headings</div>
         <div
-          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-row ali-st gap-2 mar-t-1 pad-1 thin-bor bg-lighest-th-colour"
         >
-          <a class="btn btn-primary">Login</a>
-          <a class="btn btn-primary success">Booked</a>
-          <a class="btn btn-primary info">Info</a>
-          <a class="btn btn-primary warning">Warning</a>
-          <a class="btn btn-primary danger">Danger</a>
+          <h1 class="head h1-head">H1 Heading</h1>
+          <h1 class="head h2-head">H2 Heading</h1>
+          <h1 class="head h3-head">H3 Heading</h1>
+          <h1 class="head h4-head">H4 Heading</h1>
+          <h1 class="head h5-head">H5 Heading</h1>
         </div>
         <div class="s-h mar-t-1">Code</div>
         <p class="normal-text">
           Copy this line of code and style your
-          <span class="theme-color fnt-w-600">Primary Buttons</span>
+          <span class="theme-color fnt-w-600">Headers</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2520success%2522%253EBooked%253C%252Fa%253E%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2520info%2522%253EInfo%253C%252Fa%253E%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2520warning%2522%253EWarning%253C%252Fa%253E%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2520danger%2522%253EDanger%253C%252Fa%253E%250A"
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ch1%2520class%253D%2522head%2520h1-head%2522%253EH1%2520Heading%253C%252Fh1%253E%2509%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522head%2520h2-head%2522%253EH2%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522head%2520h3-head%2522%253EH3%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522head%2520h4-head%2522%253EH4%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522head%2520h5-head%2522%253EH5%2520Heading%253C%252Fh1%253E%250A"
             style="
               width: 100%;
               height: 283px;
@@ -265,25 +258,26 @@
           >
           </iframe>
         </div>
-        <div class="s-h">(2). Link Button</div>
+        <div class="s-h">(2) .Small Text</div>
         <div
-          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-row ali-st gap-1 mar-t-1 pad-1 thin-bor bg-lighest-th-colour"
         >
-          <a class="btn btn-link">Next-Page</a>
-          <a class="btn btn-link">Visit</a>
-          <a class="btn btn-link">See-More</a>
+          <p class="lg-text">Paragraph Large Text</p>
+          <p class="md-text">Paragraph Medium Text</p>
+          <p class="nm-text">Paragraph Normal Text</p>
+          <p class="sm-text">Paragraph Small Text</p>
         </div>
         <div class="s-h mar-t-1">Code</div>
         <p class="normal-text">
-          Copy this line of code to add
-          <span class="theme-color fnt-w-600">Link-Button</span>
+          Copy this line of code and style your
+          <span class="theme-color fnt-w-600">Paragraphs</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522btn%2520btn-link%2522%253ENext-Page%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-link%2522%253EVisit%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-link%2522%253ESee-More%253C%252Fa%253E%2520%2520%2520%2520%2520"
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cp%2520class%253D%2522lg-text%2522%253E%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520Paragraph%2520Large%2520Text%250A%2509%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522md-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Paragraph%2520Medium%2520Text%250A%2509%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522nm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Paragraph%2520Normal%2520Text%250A%2509%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Paragraph%2520Small%2520Text%250A%2509%253C%252Fp%253E%250A"
             style="
               width: 100%;
-              height: 227px;
+              height: 413px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -292,27 +286,26 @@
           >
           </iframe>
         </div>
-
-        <div class="s-h">(3). Icon Button</div>
+        <div class="s-h">(3) .Grey Text</div>
         <div
-          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-row ali-st gap-1 mar-t-1 pad-1 thin-bor bg-lighest-th-colour"
         >
-          <a class="btn btn-icon"><i class="fas fa-cart-plus"></i></a>
-          <a class="btn btn-icon"><i class="fas fa-envelope"></i></a>
-          <a class="btn btn-icon"><i class="fas fa-heart"></i></a>
-          <a class="btn btn-icon"><i class="fas fa-bell"></i></a>
+          <p class="text-grey lg-text">Grey Large Text</p>
+          <p class="text-grey md-text">Grey Medium Text</p>
+          <p class="text-grey nm-text">Grey Normal Text</p>
+          <p class="text-grey sm-text">Grey Small Text</p>
         </div>
         <div class="s-h mar-t-1">Code</div>
         <p class="normal-text">
-          Copy this line of code to style
-          <span class="theme-color fnt-w-600">Icon-Button</span>
+          Copy this line of code and add
+          <span class="theme-color fnt-w-600">Grey Text</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%253C%252Fa%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cp%2520class%253D%2522text-grey%2520lg-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Grey%2520Large%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%2509%2509%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-grey%2520md-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Grey%2520Medium%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-grey%2520nm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Grey%2520Normal%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-grey%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Grey%2520Small%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A"
             style="
               width: 100%;
-              height: 245px;
+              height: 413px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -321,24 +314,26 @@
           >
           </iframe>
         </div>
-
-        <div class="s-h">(4). Floating Action Button</div>
+        <div class="s-h">(4) .Center Text</div>
         <div
-          class="flex-center-column gap-1 mar-t-1 pad-tb-1 thin-bor bg-lighest-th-colour"
+          class="flex-center-row ali-st gap-1 mar-t-1 pad-1 thin-bor bg-lighest-th-colour"
         >
-          <a class="btn btn-floating-icon">+</a>
+          <p class="center-text lg-text">Center Large Text</p>
+          <p class="center-text md-text">Center Medium Text</p>
+          <p class="center-text nm-text">Center Normal Text</p>
+          <p class="center-text sm-text">Center Small Text</p>
         </div>
         <div class="s-h mar-t-1">Code</div>
         <p class="normal-text">
-          Copy this line of code to add and style
-          <span class="theme-color fnt-w-600">Floating-Action-Button</span>
+          Copy this line of code and do center your
+          <span class="theme-color fnt-w-600">Text</span>
         </p>
         <div class="code-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-floating-icon%2522%253E%252B%253C%252Fa%253E%2520%2520%2520%2520%2520"
+            src="https://carbon.now.sh/embed?bg=rgba%28187%2C69%2C48%2C0.26%29&t=monokai&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cp%2520class%253D%2522center-text%2520lg-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Center%2520Large%2520Text%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522center-text%2520md-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Center%2520Medium%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522center-text%2520nm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Center%2520Normal%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522center-text%2520sm-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Center%2520Small%2520Text%250A%2520%2520%2520%2520%253C%252Fp%253E%250A"
             style="
               width: 100%;
-              height: 190px;
+              height: 413px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
