@@ -5,22 +5,27 @@
 
 .h1-head {
   font-size: 3rem;
+  font-weight: 900;
 }
 
 .h2-head {
   font-size: 2.5rem;
+  font-weight: 750;
 }
 
 .h3-head {
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .h4-head {
   font-size: 1.75rem;
+  font-weight: 500;
 }
 
 .h5-head {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .lg-text {
