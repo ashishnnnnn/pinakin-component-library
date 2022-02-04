@@ -15,6 +15,10 @@
   display: none;
 }
 
+.right-nav-list .menu-btn i {
+  font-size: 1.5rem;
+}
+
 .right-nav-list .menu-btn:hover {
   cursor: pointer;
 }
