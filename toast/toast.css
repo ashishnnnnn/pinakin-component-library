@@ -1,0 +1,20 @@
+.toast {
+  width: 18rem;
+  border: 2px solid #bb4430;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.toast .toast-message {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.toast .toast-cross {
+  font-size: 2rem;
+}
