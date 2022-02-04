@@ -1,0 +1,39 @@
+.navigation-bar {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  min-height: 4rem;
+  border: 2px solid #bb4430;
+  border-radius: 0.5rem;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  word-break: break-all;
+}
+
+.navigation-bar ul {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation-bar a {
+  outline: 2px solid transparent;
+  display: inline-block;
+  padding: 0.5rem;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.navigation-bar a:hover {
+  background-color: #bb453073;
+}
+
+.navigation-bar i {
+  font-size: 2rem;
+  display: inline-block;
+}
