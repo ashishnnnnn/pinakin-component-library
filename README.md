@@ -7,7 +7,7 @@
 To use the pinakin component library copy this link from here and paste it in the head section of your html file
 
 ```html
-<link rel="stylesheet" href="https://ui-labs-sr.netlify.app/styles.css" />
+<link rel="stylesheet" href="https://pinakin-ui.netlify.app/data/style.css" />
 ```
 
 ### The components which are avilable in pinakin component library .
