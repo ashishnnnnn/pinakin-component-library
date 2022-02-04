@@ -1,7 +1,7 @@
 /* ########################################## Nav-Bar ############################################# */
 
 .nav-bar {
-  height: 12.5vh;
+  height: 10.5vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,6 +13,10 @@
 
 .right-nav-list .hamburger {
   display: none;
+}
+
+.right-nav-list .menu-btn i {
+  font-size: 1.5rem;
 }
 
 .right-nav-list .menu-btn:hover {
@@ -44,7 +48,7 @@
 }
 
 .margin-req {
-  height: 13.5vh;
+  height: 11.5vh;
 }
 
 /*  ########################################## Main-Body ###################################### */
@@ -97,7 +101,7 @@
 /* ############################## Main - bar ################################ */
 
 .main-content {
-  height: calc(100vh - 13.5vh);
+  height: calc(100vh - 11.5vh);
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -112,6 +116,7 @@
 
 .social_links {
   background-color: var(--theme-color);
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +150,7 @@
 
   .nav-bar .side-hidden-bar {
     position: fixed;
-    top: 12.5vh;
+    top: 11vh;
     left: -100%;
     background-color: rgba(17, 17, 17, 0.99);
     height: 100vh;
@@ -178,8 +183,36 @@
   }
 }
 
+.social_links {
+  display: none;
+}
+
+.social_links {
+  background-color: var(--theme-color);
+}
+
+.social_links button {
+  background-color: var(--theme-color);
+}
+
+.social_links a {
+  color: white;
+}
+
+.social_links a:hover {
+  color: var(--dark-secondary-color);
+}
+
 @media only screen and (max-width: 450px) {
+  .main-content {
+    padding: 1rem;
+  }
   iframe {
     height: auto !important;
+  }
+  .social_links {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: -3rem;
   }
 }
