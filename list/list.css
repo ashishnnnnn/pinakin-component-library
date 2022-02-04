@@ -1,0 +1,54 @@
+.list {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 70%;
+  word-wrap: break-word;
+}
+
+.list > * {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.list > *:hover {
+  background-color: #99999967;
+}
+
+.basic-list-item {
+  padding: 1rem 2rem;
+}
+
+.list:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.stacked-list-item {
+  padding: 1rem 0.5rem;
+  display: flex;
+  gap: 2rem;
+  word-break: break-all;
+}
+
+.stack-list img {
+  max-width: 10rem;
+  width: 50%;
+  max-height: 10rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stacked-list-item .stacked-list-description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stacked-list-item .stacked-list-description .heading {
+  font-size: 2rem;
+}
+
+.stacked-list-item .stacked-list-description .description {
+  font-size: 1.5rem;
+}
