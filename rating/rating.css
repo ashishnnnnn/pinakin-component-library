@@ -7,6 +7,10 @@
   font-size: 1.5rem;
 }
 
+.rating-container .rating {
+  cursor: pointer;
+}
+
 .rating-container .rating .display-none {
   display: none;
 }
