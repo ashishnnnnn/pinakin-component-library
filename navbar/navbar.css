@@ -2,7 +2,7 @@
   width: 100%;
   padding: 1rem 4rem;
   display: flex;
-  min-height: 4rem;
+  height: 4rem;
   border: 2px solid #bb4430;
   align-items: center;
   gap: 2rem;
