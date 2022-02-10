@@ -29,10 +29,6 @@
   border-radius: 5px;
 }
 
-.navigation-bar a:hover {
-  background-color: #bb453073;
-}
-
 .navigation-bar i {
   font-size: 1.5rem;
   display: inline-block;
