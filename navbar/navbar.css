@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   list-style: none;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .navigation-bar a {
