@@ -7,15 +7,12 @@
   border-radius: 0.5rem;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap;
   font-size: 1.2rem;
-  word-break: break-all;
 }
 
 .navigation-bar ul {
   margin-left: auto;
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   align-items: center;
   gap: 2rem;
