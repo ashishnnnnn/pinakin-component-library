@@ -8,7 +8,7 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   word-break: break-all;
 }
 
@@ -34,6 +34,6 @@
 }
 
 .navigation-bar i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: inline-block;
 }
