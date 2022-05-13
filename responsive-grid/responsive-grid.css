@@ -5,3 +5,28 @@
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   justify-items: center;
 }
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.three-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.img-container-auto {
+  width: 100%;
+  height: 100%;
+}
+
+.img-container-auto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid var(--theme-color);
+  border-radius: 10px;
+}
